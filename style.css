@@ -1,0 +1,704 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #121212;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.containers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1140px;
+  height: 652px;
+  margin-top: 90px;
+  margin-left: 350px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 26px;
+  width: 310px;
+  height: 525, 59;
+  color: #fafafa;
+}
+
+.up {
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+  height: 285.59;
+
+  background-color: #1e1e1e;
+  padding: 16px 16px 32px;
+  border-radius: 8px;
+}
+
+.upIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.upInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 20px;
+  color: #fafafa;
+  margin-top: 8px;
+}
+
+.position {
+  font-weight: 400;
+  font-size: 18px;
+  color: #d0d0d0;
+}
+
+.upScore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.y {
+  font-weight: 400;
+  font-size: 22px;
+  color: #fafafa;
+  margin-top: 30px;
+}
+.n {
+  font-weight: 600;
+  font-size: 24px;
+  color: #fafafa;
+}
+
+.up img {
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 12.6px;
+}
+
+.down {
+  display: flex;
+  flex-direction: column;
+  background: #1e1e1e;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 26px 28px;
+  grid-gap: 12px;
+  gap: 12px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-weight: 600;
+  color: #fafafa;
+  font-size: 20px;
+}
+
+.info {
+  font-size: 16px;
+  color: #7b7b7b;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 738px;
+  margin-top: 100px;
+  box-sizing: border-box;
+  padding: 0 30px;
+  grid-gap: 10px;
+  gap: 20px;
+}
+
+.leaderbordTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #fafafa;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.first {
+  display: flex;
+  flex-direction: row;
+  width: 604px;
+  grid-gap: 18px;
+  gap: 18px;
+}
+.numberFirst img {
+  width: 52px;
+  height: 52px;
+}
+
+.firstIcon img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.tr {
+  width: 12px;
+  height: 8px;
+}
+
+.firstInfo {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  grid-gap: 8px;
+  gap: 8px;
+  background: #1e1e1e;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: #fafafa;
+  font-size: 16.6px;
+  height: 44.89px;
+  width: 604px;
+}
+
+.firstName {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 380px;
+}
+.nameIcon {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.firstScore span {
+  display: flex;
+  gap: 5px;
+}
+
+.second {
+  display: flex;
+  flex-direction: row;
+  width: 604px;
+  grid-gap: 18px;
+  gap: 18px;
+}
+
+.numberSecond img {
+  width: 52px;
+  height: 52px;
+}
+
+.secondIcon img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.secondInfo {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  grid-gap: 8px;
+  gap: 8px;
+  background: #1e1e1e;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: #fafafa;
+  font-size: 16.6px;
+  height: 44.89px;
+  width: 604px;
+}
+
+.secondName {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 375px;
+}
+
+.secondNameIcon {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.secondScore span {
+  display: flex;
+  gap: 5px;
+}
+
+.third {
+  display: flex;
+  flex-direction: row;
+  width: 604px;
+  grid-gap: 18px;
+  gap: 18px;
+}
+
+.numberThird img {
+  width: 52px;
+  height: 52px;
+}
+
+.thirdIcon img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.thirdInfo {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  grid-gap: 8px;
+  gap: 8px;
+  background: #1e1e1e;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: #fafafa;
+  font-size: 16.6px;
+  height: 44.89px;
+  width: 604px;
+}
+
+.thirdName {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 365px;
+}
+
+.thirdNameIcon {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.thirdScore span {
+  display: flex;
+  gap: 5px;
+}
+
+.fourth {
+  display: flex;
+  flex-direction: row;
+  width: 604px;
+  grid-gap: 18px;
+  gap: 18px;
+}
+
+.numberFourth span {
+  width: 50px;
+  min-height: 50px;
+  font-size: 20px;
+  color: #d0d0d0;
+}
+
+.fourthIcon img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.fourthInfo {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  grid-gap: 8px;
+  gap: 8px;
+  background: #1e1e1e;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: #fafafa;
+  font-size: 16.6px;
+  height: 44.89px;
+  width: 604px;
+}
+
+.fourthName {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 325px;
+}
+
+.fourthNameIcon {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.fourthScore span {
+  display: flex;
+  gap: 5px;
+}
+
+.fifth {
+  display: flex;
+  flex-direction: row;
+  width: 604px;
+  grid-gap: 18px;
+  gap: 18px;
+}
+
+.numberFifth span {
+  width: 50px;
+  min-height: 50px;
+  font-size: 20px;
+  color: #d0d0d0;
+}
+
+.fifthIcon img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.fifthInfo {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  grid-gap: 8px;
+  gap: 8px;
+  background: #1e1e1e;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: #fafafa;
+  font-size: 16.6px;
+  height: 44.89px;
+  width: 604px;
+}
+
+.fifthName {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 360px;
+}
+
+.fifthNameIcon {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.fifthScore span {
+  display: flex;
+  gap: 5px;
+}
+
+.sixth {
+  display: flex;
+  flex-direction: row;
+  width: 604px;
+  grid-gap: 18px;
+  gap: 18px;
+}
+
+.numberSixth span {
+  width: 50px;
+  min-height: 50px;
+  font-size: 20px;
+  color: #d0d0d0;
+}
+
+.sixthIcon img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.sixthInfo {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  grid-gap: 8px;
+  gap: 8px;
+  background: #1e1e1e;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: #fafafa;
+  font-size: 16.6px;
+  height: 44.89px;
+  width: 604px;
+}
+
+.sixthName {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 350px;
+}
+
+.sixthNameIcon {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.sixthScore span {
+  display: flex;
+  gap: 5px;
+}
+
+.seventh {
+  display: flex;
+  flex-direction: row;
+  width: 604px;
+  grid-gap: 18px;
+  gap: 18px;
+}
+
+.numberSeventh span {
+  width: 50px;
+  min-height: 50px;
+  font-size: 20px;
+  color: #d0d0d0;
+}
+
+.seventhIcon img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.seventhInfo {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  grid-gap: 8px;
+  gap: 8px;
+  background: #1e1e1e;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: #fafafa;
+  font-size: 16.6px;
+  height: 44.89px;
+  width: 604px;
+}
+
+.seventhName {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 375px;
+}
+
+.seventhNameIcon {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.seventhScore span {
+  display: flex;
+  gap: 5px;
+}
+
+.eigth {
+  display: flex;
+  flex-direction: row;
+  width: 604px;
+  grid-gap: 18px;
+  gap: 18px;
+}
+
+.numberEigth span {
+  width: 50px;
+  min-height: 50px;
+  font-size: 20px;
+  color: #d0d0d0;
+}
+
+.eigthIcon img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.eigthInfo {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  grid-gap: 8px;
+  gap: 8px;
+  background: #1e1e1e;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: #fafafa;
+  font-size: 16.6px;
+  height: 44.89px;
+  width: 604px;
+}
+
+.eigthName {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 365px;
+}
+
+.eigthNameIcon {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.eigthScore span {
+  display: flex;
+  gap: 5px;
+}
+
+.ninth {
+  display: flex;
+  flex-direction: row;
+  width: 604px;
+  grid-gap: 18px;
+  gap: 18px;
+}
+
+.numberNinth span {
+  width: 50px;
+  min-height: 50px;
+  font-size: 20px;
+  color: #d0d0d0;
+}
+
+.ninthIcon img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.ninthInfo {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  grid-gap: 8px;
+  gap: 8px;
+  background: #1e1e1e;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: #fafafa;
+  font-size: 16.6px;
+  height: 44.89px;
+  width: 604px;
+}
+
+.ninthName {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 370px;
+}
+
+.ninthNameIcon {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.ninthScore span {
+  display: flex;
+  gap: 6px;
+}
+
+.tenth {
+  display: flex;
+  flex-direction: row;
+  width: 604px;
+  grid-gap: 18px;
+  gap: 18px;
+}
+
+.numberTenth span {
+  width: 50px;
+  min-height: 50px;
+  font-size: 20px;
+  color: #d0d0d0;
+}
+
+.tenthIcon img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.tenthInfo {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  grid-gap: 8px;
+  gap: 8px;
+  background: #1e1e1e;
+  border-radius: 4px;
+  padding: 10px 20px;
+  color: #fafafa;
+  font-size: 16.6px;
+  height: 44.89px;
+  width: 604px;
+}
+
+.tenthName {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 380px;
+}
+
+.tenthNameIcon {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tenthScore span {
+  display: flex;
+  gap: 5px;
+}
+
+.gap {
+  display: flex;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 26px;
+}
